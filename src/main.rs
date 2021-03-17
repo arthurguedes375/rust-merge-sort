@@ -69,5 +69,6 @@ fn merge_sort(numbers: Vec<i64>) -> Vec<i64> {
 fn main() {
     let arr = [3, 5, 6, 8, 1, 2, 4, 7].to_vec();
 
-    println!("{:#?}", merge_sort(arr));
+    println!("Random: {:#?}\n", arr);
+    println!("Sorted: {:#?}\n", merge_sort(arr));
 }
